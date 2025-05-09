@@ -1,0 +1,40 @@
+/* Colores principales */
+:root {
+    --morado: #6a0dad;
+    --naranja: #ff6f00;
+    --verde: #2e7d32;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .bg-morado {
+    background-color: var(--morado) !important;
+  }
+  
+  .text-morado {
+    color: var(--morado);
+  }
+  
+  .btn-outline-morado {
+    border-color: var(--morado);
+    color: var(--morado);
+  }
+  
+  .btn-outline-morado:hover {
+    background-color: var(--morado);
+    color: white;
+  }
+  
+  .hero {
+    background: linear-gradient(rgba(106, 13, 173, 0.8), rgba(255, 111, 0, 0.8)), url('banner.jpg') center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .navbar .form-control {
+    max-width: 200px;
+  }
+  
